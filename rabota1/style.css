@@ -1,0 +1,416 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+header{
+  display:grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header__menu {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  padding-top:133px ;
+  padding-bottom: 138px;
+  display:flex;
+  gap: 32px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header_menu_circle {
+  display: flex;
+  gap:32px;
+  list-style:circle;
+}
+
+.logo {
+  display: block;
+}
+
+.logo_image {
+  width:148px;
+}
+
+.header__address {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  list-style-type: none;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 180px;
+  justify-self: end;
+  word-wrap: break-word;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 1);
+  opacity: 60%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.cover{
+  width: 1100px;
+  min-height: 757px;
+  background-image: url(cover\ \(2\).jpg);
+  background-repeat: no-repeat;
+  background-size: 1100px 757px;
+  margin-bottom: 180px;
+  padding: 165px 50px 61px 50px;
+  position: relative;
+}
+
+.cover_title{
+  color: #FFFFFF;
+  font-family: Raleway, sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 114,9%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+  position: relative;
+  z-index:3;
+}
+
+.aligned-text{
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 30px;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+.aligned-text_left{
+  text-align: left;
+}
+
+.aligned-text_center{
+  text-align: center;
+}
+
+.aligned-text_right{
+  text-align: right;
+}
+
+.description {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 78px;
+  margin-top: 135px;
+  color: #fff;
+  letter-spacing: 0%;
+  z-index: 1;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 90%;
+  word-spacing: 18px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+ .bet-button {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+} 
+
+.title_lots{
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 64px;
+  padding-bottom: 27px;
+}
+
+.card_lots{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 25px;
+}
+
+.content_lots_regisur {
+  width: 334px;
+  min-height: 596px;
+  background-image: url(card-lot-01\ \(1\).jpg);
+  background-repeat: no-repeat;
+  position: relative;
+   background-size: cover;
+  background-position: center;
+}
+
+.content_lots_book {
+  width: 334px;
+  min-height: 596px;
+  background-image: url(card-lot-02.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+   background-size: cover;
+  background-position: center;
+}
+
+.content_lots_cartina {
+  width: 334px;
+  min-height: 596px;
+  background-image: url(card-lot-03\ \(1\).jpg);
+  background-repeat: no-repeat;
+  position: relative;
+   background-size: cover;
+  background-position: center;
+}
+
+.card_lots{
+  list-style: none;
+}
+
+article {
+  width: 300px;
+  height: 82px;
+  padding-left: 40px;
+  padding-top: 48px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #FFFFFF;
+  offset: 0%;
+ text-decoration-thickness: 0%;
+}
+
+.text-lots{
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+  padding-left: 40px;
+  color: #FFFFFF;
+  padding-bottom: 48px;
+}
+
+.overlay_lots {
+  position: absolute;
+  background: rgba(0, 0, 0, 1);
+  opacity: 60%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.text_book{
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  width: 294px;
+  height: 360px;
+  padding-bottom: 68px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  margin-top: 135px;
+  color: #fff;
+  letter-spacing: 0%;
+  z-index: 2;
+}
+.text_regisur{
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  width: 284px;
+  height: 144px;
+  padding-top: 304px;
+  padding-bottom: 48px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  margin-top: 85px;
+  color: #fff;
+  letter-spacing: 0%;
+  z-index: 2;
+}
+.text_cartins{
+  width: 290px;
+  height:264px;
+  padding-top:200px;
+  padding-bottom: 48px;
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  width: 290px;
+  height:264px;
+  padding-top:200px;
+  padding-bottom: 48px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  margin-top: 125px;
+  color: #fff;
+  letter-spacing: 0%;
+  z-index: 2;
+}
+.after_lots{
+  padding-left: 64px;
+  padding-top: 30px;
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  line-height: 100%;
+  text-decoration: underline;
+}
+.about {
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+  display: grid; /* Делаем весь блок .about Grid-контейнером */
+  grid-template-columns: 359px 1fr; /* 1 колонка для круга, 2-я для контента */
+  grid-template-rows: auto auto; /* 2 строки: для заголовка и текста */
+  gap: 72px; /* Расстояние между элементами */
+  align-items: start; /* Выравнивание по верху */
+}
+.about_header {
+  display: contents; /* Убираем .about_header как контейнер, используем его детей в Grid */
+}
+.about_logo_circle {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1; /* Круг в первой колонке */
+  grid-row: 1; /* Круг в первой строке */
+  margin-left: 71px;
+  margin-top: 155px;
+}
+.logo_image {
+  width: 148px;
+  height: 114px;
+}
+.about_title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  grid-column: 2; /* Заголовок во второй колонке */
+  grid-row: 1; /* Заголовок в первой строке */
+  margin-top: 256px;
+}
+.about_text {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  grid-column: 2; /* Текст во второй колонке (под заголовком) */
+  grid-row: 2; /* Текст во второй строке */
+  margin-top: -59px;
+}
+.about_text p {
+  margin-bottom: 20px;
+}
+.about_text p:last-child {
+  margin-bottom: 0;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* Левый и правый блоки занимают свободное пространство */
+  align-items: start;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 180px;
+}
+.footer_address {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: start;
+  max-width: 350px;
+  word-wrap: break-word;
+}
+.address-line {
+  line-height: 1;
+  margin: 0;
+}
+.footer_menu {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+.footer_social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: end;
+  gap: 57px;
+}
