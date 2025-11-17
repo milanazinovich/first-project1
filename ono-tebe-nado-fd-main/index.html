@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
@@ -11,21 +12,31 @@
   <body>
     <header>
       <nav class="header__menu">
-        <a class="header__links-list header__links-list-item">главная</a>
+        <span class="header__links-list header__links-list-item">главная</span>
         <ul class="header_menu_circle">
           <li>
-            <a href="dpf" class="header__links-list-item">посмотреть лоты</a>
+            <span href="dpf" class="header__links-list-item header_underline"
+              >посмотреть лоты</span
+            >
           </li>
-          <li><a href="dpf" class="header__links-list-item">об аукционе</a></li>
+          <li>
+            <span href="dpf" class="header__links-list-item header_underline"
+              >об аукционе</span
+            >
+          </li>
         </ul>
       </nav>
       <a class="logo">
-        <img class="logo_image" src="logo.png" alt="логотип"/>
+        <img class="logo_image" src="images/logo-black.svg" alt="логотип" />
       </a>
       <address class="header__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <span class="address_line">наб.Принсенграхт 263-265, Амстердам</span>
+        <a href="tel:+99995555555" class="header_underline telephone"
+          >+9 999 555 5555</a
+        >
+        <a href="mailto:info@sobaka.ge" class="header_underline gmail"
+          >info@sobaka.ge</a
+        >
+        <span class="address_line">наб. Принсенграхт 263-265, Амстердам</span>
       </address>
     </header>
     <main>
@@ -49,7 +60,9 @@
           <li class="content_lots_regisur">
             <div class="image_regisur">
               <div class="overlay_lots"></div>
-              <article>Фильм режиссёра, который бросил киношколу</article>
+              <article class="lots_underline">
+                Фильм режиссёра, который бросил киношколу
+              </article>
             </div>
             <p class="text_regisur text-lots">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
@@ -59,7 +72,7 @@
           <li class="content_lots_book">
             <div class="image_book">
               <div class="overlay_lots"></div>
-              <article>
+              <article class="lots_underline">
                 Книга, где описан один скучный день из жизни рекламного агента
               </article>
             </div>
@@ -74,13 +87,13 @@
           <li class="content_lots_cartina">
             <div class="image_cartina">
               <div class="overlay_lots"></div>
-              <article>
+              <article class="lots_underline">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </article>
             </div>
             <p class="text_cartins text-lots">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+              похожее на инфузорию- туфельку. Никаких полей, лесов, котиков...
               Сколько бы вы на такое поставили, если бы не знали, что это — одна
               из революционных работ Кандинского?
             </p>
@@ -91,7 +104,7 @@
       <section class="about">
         <div class="about_header">
           <div class="about_logo_circle">
-            <img class="logo_image" src="logo-white.png" alt="логотип" />
+            <img class="logo_image_about" src="images/logo-white.svg" alt="логотип" />
           </div>
           <h1 class="about_title">Об аукционе</h1>
         </div>
@@ -116,25 +129,25 @@
     </main>
     <footer class="content-section">
       <div class="footer_address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <span class="address_line">наб.Принсенграхт 263-265,</span>
-        <span class="address_line">Амстердам</span>
+        <a href="tel:+99995555555" class="footer_menu_underline">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="footer_menu_underline">info@sobaka.ge</a>
+        <span class="address_line_footer">наб. Принсенграхт 263-265,</span>
+        <span class="address_line_footer">Амстердам</span>
       </div>
       <address class="footer_menu">
         <a>главная</a>
-        <a href="">посмотреть лоты</a>
-        <a href="">об аукционе</a>
+        <a href="#" class="footer_menu_underline">посмотреть лоты</a>
+        <a href="#" class="footer_menu_underline">об аукционе</a>
       </address>
       <div class="footer_social">
         <a href="index.html">
-          <img class="social" src="Pinterest.png" alt="pinterest" />
+           <img class="social" src="images/yt.svg" alt="yt" />
         </a>
         <a href="index.html">
-          <img class="social" src="VK.png" alt="vk" />
+          <img class="social" src="images/vk.svg" alt="vk" />
         </a>
         <a href="index.html">
-          <img class="social" src="YouTube.png" alt="yt" />
+          <img class="social" src="images/pinterest.svg" alt="pinterest" />
         </a>
       </div>
     </footer>
